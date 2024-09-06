@@ -1,15 +1,5 @@
 {
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/css-modules-typescript-loader",
-      "**/@alifc/theme-lowcode-*",
-      "**/jest"
-    ]
-  },
   "scripts": {
     "build": "./scripts/build.sh",
     "build:npm": "lerna run build --stream",
